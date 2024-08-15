@@ -8,7 +8,7 @@ const Movie = ({ movie }) => {
       </h1>
       <Image
         src={"https://image.tmdb.org/t/p/w500" + movie.backdrop_path}
-        width={400}
+        width={300}
         height={400}
         alt={movie.title}
         className="rounded-md"
